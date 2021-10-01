@@ -1,5 +1,6 @@
 const { ApolloServer, MockList } = require("apollo-server");
 const faker = require("faker");
+const collection = require("./collection.json")
 
 const typeDefs = `
     type Cat {
@@ -26,14 +27,7 @@ const mocks = {
 
 const resolvers = {
   Query: {
-    allCats: () => [
-      {
-        name: "Bubastis"
-      },
-      {
-        name: "Muezza"
-      }
-    ]
+    allCats: () => collection.cats
   }
 };
 

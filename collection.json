@@ -1,0 +1,22 @@
+{
+    "cats": [
+        {
+            "id": 1,
+            "name": "Bubastis",
+            "nice": true,
+            "age": 5
+        },
+        {
+            "id": 2,
+            "name": "Muezza",
+            "nice": false,
+            "age": 4
+        },
+        {
+            "id": 3,
+            "name": "Chico",
+            "nice": true,
+            "age": 5
+        }
+    ]
+}
